@@ -12,6 +12,12 @@
 
 
 /* -- 2. Generic -- */
+
+#copper_onion_logo {
+    max-width: 60%;
+    height: auto;
+}
+
 body {
     background-color: #F0E9D7;
     color: black;
