@@ -10,7 +10,7 @@
 -- */
 
 /* -- 1. Font Imports -- */
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
 /* -- 2. Generic -- */
 * {
@@ -30,6 +30,7 @@ hr.hor_line (
 
 /* -- 3. Header -- */
 header {
- text-align: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
   
 }
