@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
 /* -- 2. Generic -- */
-* {
+body {
     background-color: #F0E9D7;
     color: black;
 /* -change default fonts- */
