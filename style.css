@@ -19,7 +19,8 @@
 }
 
 body {
-    background-color: #F0E9D7;
+    background-image: url("background.jpg");
+    background-repeat: repeat;
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
