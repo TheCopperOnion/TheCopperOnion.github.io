@@ -18,8 +18,6 @@
     color: black;
 /* -change default fonts- */
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
 }
 
 hr.hor_line (
@@ -29,8 +27,9 @@ hr.hor_line (
 
 
 /* -- 3. Header -- */
-header {
+header. {
   text-align: center;
   font-family: 'Playfair Display', serif;
-  
+  font-size: 30px;
+  font-weight: bold;
 }
