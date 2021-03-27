@@ -1,8 +1,6 @@
 /* -- css -- */
 @charset "utf-8";
 
-
-
 /* -- Table of Contents 
   1. Font Imports
   2. Generic
@@ -12,25 +10,24 @@
 /* -- 1. Font Imports -- */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
+
 /* -- 2. Generic -- */
-* {
+body {
     background-color: #F0E9D7;
     color: black;
 /* -change default fonts- */
     font-family: 'Open Sans', sans-serif;
 }
 
-hr. (
+hr (
     width: 70%;
     text-align: center;
     size: 3px;
 }
 
-
 /* -- 3. Header -- */
-header.h1 {
+h1 {
     text-align: center;
-    font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: bold;
 }
