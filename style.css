@@ -1,8 +1,6 @@
 /* -- css -- */
 @charset "utf-8";
 
-
-
 /* -- Table of Contents 
   1. Font Imports
   2. Generic
@@ -10,26 +8,36 @@
 -- */
 
 /* -- 1. Font Imports -- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
 
 /* -- 2. Generic -- */
-* {
-    background-color: #F0E9D7;
+
+#copper_onion_logo {
+    max-width: 60%;
+    height: auto;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
     color: black;
-/* -change default fonts- */
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
 }
 
-hr.hor_line (
-  width:50%;
-  text-align:center;
+hr {
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 /* -- 3. Header -- */
-header {
- text-align: center;
-  
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
