@@ -1,11 +1,35 @@
 /* -- css -- */
+@charset "utf-8";
+
 
 
 /* -- Table of Contents 
-  1. Generic
+  1. Font Imports
+  2. Generic
+  3. Header
 -- */
 
+/* -- 1. Font Imports -- */
+
+
+/* -- 2. Generic -- */
 * {
     background-color: #F0E9D7;
     color: black;
+/* -change default fonts- */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+hr.hor_line (
+  width:50%;
+  text-align:center;
+}
+
+
+/* -- 3. Header -- */
+header {
+ text-align: center;
+  
 }
