@@ -7,17 +7,169 @@
   <link rel="icon" href="FreeTuitionLogo.png" type="image/png">
   <title>CooperOnion</title>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <script>
+    function shuffle() {
+      var ul = document.querySelector('ul');
+      for (var i = ul.children.length; i >= 0; i--) {
+          ul.appendChild(ul.children[Math.random() * i | 0]);
+      }
+    }
+  </script>
 </head>
 
-<body>
+<body onload="shuffle()">
   <header>
-    <img src="FreeTuitionLogo.svg" alt="Copper Onion Logo" id="copper_onion_logo">
-    <h1>Big World</h1>
-    <hr>
-  </header>  
-  
-  <p>Hello World
-  </p>
+    <h1>
+      <img src="FreeTuitionLogo.svg" alt="Copper Onion Logo" id="copper_onion_logo">
+      The Copper Onion
+    </h1>
+    <div class="subhead">New York, NY - Thursday April 1, 2021 - A Cooper Union Publication</div>
+  </header>
+
+  <div class="frontpage">
+    <div class="fp-cell fp-cell--1">
+      <h2>Breaking News!</h2>
+      <hr id="breaking_news_line">
+      <div class="fp-item">
+
+        <ul id="one-liners">
+          <li>Culture show runs for record short 0 hours and 0 minutes, best culture show we’ve had so far</li>
+          <li>JAC begs students to spend club money</li>
+          <li>Cooper trains machine learning model on student body after entire admissions department
+            quits - results rejected for lack of diversity</li>
+          <li>Alan Wolf retires - Philip Yecko is now the entire physics department</li>
+          <li>Student creates email spam filter, accidentally deletes all of Laura Spark’s messages</li>
+          <li>Alan Wolf accepts his mortality, stops dying hair</li>
+          <li>Alan Wolf accepts his mortality, stops dying... hair</li>
+          <li>Students continue to look for missing unsubscribe button on Cooper emails</li>
+          <li>Zoom develops new feature to track engagement, fails to find enough students for trials</li>
+          <li>Professors stare into the void, students in void stare back</li>
+          <li>CivE department job requirements now include inability to use computers</li>
+          <li>IT department locked out of Teams</li>
+          <li>New “Healthy Dating and Relationships” workshops teach students how to sext through video calls</li>
+          <li>New “Healthy Dating and Relationships” workshops aim to teach students how to flirt over video calls,
+          discover they must first teach engineering students how to flirt</li>
+          <li>Cooper unveils new Mental Health Days to allow students to wallow in self-pity over lack of spring break.</li>
+          <li>Cooper unveils new Mental Health Days to increase student isolation and prevent a sufficiently long break</li>
+          <li>Cooper’s best financial investment determined to be Alan Wolf’s retirement package</li>
+          <li>Great Hall listed for rent on Craigslist</li>
+          <li>Cooper places unskippable ads on asynchronous learning</li>
+          <li>Free tuition fades into distant memory</li>
+          <li>Cooper botanical garden in shambles</li>
+          <li>Professors complain to laptop manufacturers about sudden wave of camera failures</li>
+          <li>Adjunct professor working two full time jobs finds time to teach at Cooper between hours of 12 and 4 am</li>
+          <li>Seniors wonder why they have to pay tuition after teaching themselves for 4 years</li>
+          <li>Mazel Tov! Physics department celebrates matchmaking between Philip Yecko and undetermined full time hire, hopes
+            relationship will produce many new physics professors</li>
+          <li>Zoom and Teams factions rumored to be building up bandwidth for arms race</li>
+          <li>Student’s pets competing with professors for engagement; pets winning</li>
+          <li>Malquori’s termination raises HSS department’s average age to 132</li>
+          <li>Cult forms around weird bird statue sitting on roof of the NAB</li>
+          <li>Title IX complaint system streamlined - now goes directly to shredder</li>
+          <li>Cooper installs new perfectly flat glass ceiling in atrium with focal length at Title IX coordinator’s office
+            (Focal length at infinity)</li>
+          <li>Zeta Psi reported to be in hospital - critical condition</li>
+          <li>80% of Cooper Students do not know there is a frat</li>
+          <li>Incoming Cooper students disappointed that there is no Greek life</li>
+          <li>Underclassmen unaware that Zachary Friedman got kicked out of the frat</li>
+          <li>Incoming students worship picture of Mintchev to pass Calculus I</li>
+          <li>Cooper Union (NAB buildings and grounds) hires exorcist to pacify enraged spirit of Peter Cooper</li>
+          <li>Mintchev now teaching discrete - Computer Engineering track no longer an escape for EEs</li>
+          <li>EEs in panic, no longer able to escape Mintchev by choosing Computer Engineering track</li>
+          <li>Mintchev now teaching discrete - EEs in panic, no longer able to escape by choosing Computer Engineering track</li>
+          <li>Mintchev finally proves 0 = 1, allowing admin to sidestep ABET credit hour requirements</li>
+          <li>Professors explain who Leonhard Euler was for fourth consecutive semester</li>
+          <li>International students excited that they traveled to the US to be taught the history of their own countries in
+          proposed decolonized HSS curriculum</li>
+          <li>Tenured HSS professor camera fails when asked about decolonizing the HSS curriculum</li>
+          <li>Students call on tenured HSS professors to decolonize the curriculum. All HSS professors claim they are going
+          through a tunnel.</li>
+          <li>Remember the push to decolonize the HSS curriculum? Neither do the HSS professors.</li>
+          <li>HSS department argues that new international policies are decolonizing the curriculum</li>
+          <li>Due to new video recording policy, Swann plays white noise over racial slurs from required reading</li>
+          <li>Cooper Union moves to admit a new mascot. It’s a rat</li>
+          <li>Math department reveals new grading policy - even numbers of sign errors allowed</li>
+          <li>Cooper Union now infested with pigeons</li>
+          <li>Students saddened to hear about Vulakh’s retirement. “And they will what? Cry.”</li>
+          <li>Remote learning prevents Hyperloop from building another bomb</li>
+          <li>Students accused of copying answers after multiple test questions left blank</li>
+          <li>Math department finds multiple test questions left blank, accuses students of copying answers</li>
+          <li>Agrawal accuses students of copying answers after multiple test questions left blank</li>
+          <li>Om Agrawal’s ceiling burned into student’s memories</li>
+          <li>After departure of Alan Wolf, Om Agrawal takes top spot for reasons students retake classes</li>
+          <li>Okorafor manages whole year without teaching abstinence-only sex education in middle of class</li>
+          <li>Students stop showing up to (attending?) club events due to lack of free food</li>
+          <li>Class recordings allows Laura Sparks to censor defamation against Cooper’s administration</li>
+          <li>Laura Sparks hires new student affairs officers to uncover student dissent in class recordings</li>
+          <li>Laura Sparks develops new partnership with the NSA to read over student messages</li>
+          <li>Laura Sparks moves to support HSS department after finding poor grammar in student Teams chat DMs / personal messages</li>
+          <li>Teams new chat feature - read by Laura Sparks</li>
+          <li>New Cooper Dating App - Laura Sparks matches you based on your Teams messages (ad/pop up?)</li>
+          <li>Cooper Union moves to replace actual professors with recordings</li>
+          <li>IT sends link to article warning people about the dangers of clicking links</li>
+          <li>Keene attributes difficulty hearing to years of listening to student bullshit</li>
+          <li>Anechoic chamber rated second-quietest place after classroom when Smyth returns tests</li>
+          <li>Admin listens to repeated student complaints, Keene, Sable, and Fontaine only remaining EE professors</li>
+          <li>Admin listens to repeated student complaints: Fontaine only remaining EE professor</li>
+          <li>DO NOT CLICK CORTANA EMAILS! THEY ARE AN EXTREMELY EFFICIENT FISHING ATTEMPT</li>
+          <li>Cortana daily briefings compiled into grand work exceeding length of War and Peace</li>
+          <li>Cortana daily briefings revealed to be extremely persistent phishing attempt</li>
+          <li>Students no longer confused as to why the Phish House is called that</li>
+          <li>Stuyvesant Fish house revealed as source of email phishing attempts by enigmatic white hat hacker only known as “Mr. Ng”</li>
+          <li>Cooper Union brags about having fewer than __ on-campus COVID cases despite 90% of students not stepping foot
+            on-campus since March</li>
+          <li>Cooper Union brags about having fewer than SQL: DROP TABLE reports COVID cases in the community</li>
+          <li>Lab kit home mailing program expands to chemistry department; suspected that with enough fume inhalation,
+            younger siblings may also be convinced to apply to Cooper</li>
+          <li>Among Us game ends confusedly as lobby of freshman students all assumed they were impostors</li>
+          <li>Commencement attendance projected to be lower than CONNECT workshop</li>
+          <li>Administration yet to comment on student petition to read past petitions</li>
+          <li>Students petition administration to respond to student petitions</li>
+          <li>Student marvel at new professor teaching methodologies- “I never knew reading the textbook could be so informative!”</li>
+          <li>“I reaallly like cheese” - Laura Sparks</li>
+          <li>Cooper student challenges themself to take all classes in bathroom - achieves record high GPA</li>
+          <li>The Cooper Union (A Cocktail mix) - 1 part acetone & 50 parts bleach</li>
+          <li>Commuter students excited to no longer need to travel to Cooper - “I can take more credits now!”</li>
+          <li>Cooper Sex Ed now hosted on Pornhub Live - Students request in-person labs</li>
+          <li>Engineering students ecstatic to not have to see other people for a year</li>
+          <li>Despite efforts to improve online classes, administration awestruck 50% of students reported to be below average</li>
+          <li>Cooper Union Financial Aid Department revealed to be staffed by goldfish</li>
+          <li>Please Transfer</li>
+          <li>Therapy dogs rejoice to not be forced into depression by visiting Cooper</li>
+          <li>Lack of interaction during pandemic leaves therapy dogs depressed</li>
+          <li>Due to pandemic, therapy dogs noticeably less depressed after not visiting Cooper</li>
+          <li>Therapy dogs noticeably less depressed after not visiting Cooper for a year</li>
+          <li>Cooper Union Instagram goes viral</li>
+          <li>Cooper Union Instagram goes viral, labeled COVID-20 by WHO</li>
+          <li>Cooper Union Instagram goes viral, phones must pass test before being allowed onto campus</li>
+          <li>Engineering students stop fearing COVID - robots can’t get infected</li>
+          <li>ME senior’s robotics project fails rapid COVID test, not allowed on campus</li>
+          <li>Motorsports car fails COVID test, not allowed on campus (if only they had a car this year)</li>
+          <li>Student does actual work for independent study</li>
+          <li>Freshman passes calculus</li>
+          <li>Elevators in the NAB actually work</li>
+          <li>NAB Elevators join HSS protest, go on strike</li>
+          <li>HSS surprised at increase in attendance due to online learning - students respond that they joined the call by accident</li>
+          <li>Cooper student who built the biggest rubik's cube in the world realizes that it is too big to take out of the building</li>
+          <li>Student who disliked Frankie's found to have COVID-related symptoms; lack of taste</li>
+          <li>Rapid COVID testing uses Frankie’s to test for lack of taste</li>
+          <li>administrators starting to think Cooper students not particularly happy</li>
+          <li>Cooper students create virtual fish house in order to occupy it</li>
+          <li>After students too burnt out to reply to end of semester survey, admin congratulates themselves on no serious issues</li>
+          <li>The cooper union for the advancement of science and art: better things aren't possible!</li>
+          <li>HSS department starts Twitch streaming any% speedruns of HSS minor approval</li>
+          <li>Cooper hires all physics candidates, creates new world-class astronomy department</li>
+          <li>Frankies runs out of Salmon Teriyaki</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <img src="PeterCooperA.gif" alt="Peter Cooper" id="cooper">
+
 </body>
+
+
 
 </html>
