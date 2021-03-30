@@ -5,39 +5,111 @@
   1. Font Imports
   2. Generic
   3. Header
+  4. Body
 -- */
 
 /* -- 1. Font Imports -- */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
 
 /* -- 2. Generic -- */
 
-#copper_onion_logo {
-    max-width: 60%;
-    height: auto;
-}
-
 body {
-    background-image: url("background.jpg");
+
+    /*background-image: url("background.jpg");
     background-repeat: repeat;
+    */
+    background-color: #f9f7f1;
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Droid Serif', serif;
 }
 
 hr {
     width: 70%;
     text-align: center;
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
 }
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-bottom: 15px;
+}
 /* -- 3. Header -- */
 h1 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 72px;
+    margin-bottom: 30px;
+    margin-top: -20px
+}
+
+.subhead {
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+    margin-bottom: 20px
+
+}
+#copper_onion_logo {
+    max-width: 10%;
+    height: auto;
+    position: relative;
+    top: 40px
+}
+
+#cooper {
+    max-width: 10%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+/* -- 4. Body -- */
+.frontpage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 32px;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.fp-cell {
+  position: relative;
+  z-index: 2;
+  padding: 16px 16px;
+  border-right:  2px solid #2f2f2f
+
+}
+.fp-cell--1 {
+  grid-row: 1 / span 2;
+}
+.fp-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  height: 100%;
+}
+
+h2 {
+    font-weight: 700;
     font-size: 30px;
-    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -2px
+}
+#breaking_news_line {
+    margin-bottom: -10px
 }
