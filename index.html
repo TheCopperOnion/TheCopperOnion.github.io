@@ -84,6 +84,9 @@
 body {
   background-image: url("background.jpg");
 }
+div.fp-item {
+  width=20%
+}
 </style>
 </head>
 <body onload="shuffle(), magnify(2)">
@@ -102,8 +105,7 @@ body {
       <h2>Breaking News!</h2>
       <hr id="breaking_news_line">
       <div class="fp-item">
-
-        <marquee direction="down">
+        <ul id="one-liners" style="list-style-type:none;">
           <li>Culture show runs for record short 0 hours and 0 minutes, best culture show we’ve had so far</li>
           <li>JAC begs students to spend club money</li>
           <li>Cooper trains machine learning model on student body after entire admissions department
@@ -217,7 +219,7 @@ body {
           <li>HSS department starts Twitch streaming any% speedruns of HSS minor approval</li>
           <li>Cooper hires all physics candidates, creates new world-class astronomy department</li>
           <li>Frankies runs out of Salmon Teriyaki</li>
-        </marquee>
+        </ul>
       </div>
     </div>
     <div class="fp-cell fp-cell--2">
